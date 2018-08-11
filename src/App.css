@@ -37,8 +37,9 @@
   background: white;
   padding: 2%;
   margin: 10px 20% 10px 20%;
+  /* padding-top: 50px; */
   width: 50%;
-  height: 10%;
+  height: 300px;
 }
 
 .card-title {
@@ -53,12 +54,22 @@
 }
 
 .card-tools {
-  display: inline-block;
-  font-size: .7em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: .6em;
   list-style: none;
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 20%;
+}
+
+.card-tools li {
+  height: 5%;
+  width: 20%;
+  padding: 5px;
+  border: 1px solid blue;
+
 }
 
 .card-btns {
