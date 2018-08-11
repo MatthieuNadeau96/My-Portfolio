@@ -5,7 +5,7 @@ class LandingPage extends Component {
   render() {
     return (
       <div className="home-section">
-        <p className="title">Matthieu Nadeau</p>
+        <p className="landing-title">Matthieu Nadeau</p>
       </div>
     );
   }
