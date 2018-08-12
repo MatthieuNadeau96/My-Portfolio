@@ -22,6 +22,25 @@
   letter-spacing: 8px;
 }
 
+.burger-menu {
+  margin: 0;
+  float: right;
+  padding: 20px;
+  font-size: 2em;
+}
+
+.mobileNav {
+  list-style: none;
+  margin: 0px;
+  background-color: #fff;
+}
+
+.mobileNav li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0
+}
+
 
 /* PROJECT SECTION */
 
@@ -31,26 +50,31 @@
   text-align: center;
   width: 100%;
   padding: 30px;
+  height: 100%;
 }
 
 .project-card {
   background: white;
-  padding: 2%;
   margin: 10px 20% 10px 20%;
-  /* padding-top: 50px; */
+  padding: 10px;
   width: 50%;
-  height: 300px;
+  height: 180%;
 }
 
 .card-title {
   font-size: 2em;
   margin: 0;
-  padding: 5px;
+  padding: 20px 10px;
 }
 
 .card-info {
   margin: 0;
-  padding: 10px;
+  padding: 20px 10px;
+}
+
+.card-tool-container {
+  display: none;
+  padding: 20px 100px;
 }
 
 .card-tools {
@@ -61,18 +85,19 @@
   list-style: none;
   text-align: center;
   margin: 0;
-  padding: 10px 20%;
+  padding: 0px 0px;
 }
 
 .card-tools li {
-  height: 5%;
-  width: 20%;
+  height: 10px;
+  width: 40px;
   padding: 5px;
   border: 1px solid blue;
 
 }
 
 .card-btns {
+  padding: 20px 0 0 0;
   align-items: center;
 }
 
