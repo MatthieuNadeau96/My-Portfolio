@@ -45,6 +45,8 @@
   position: fixed;
 }
 
+/* TODO: Fix the height when the mobile screen is tilted */
+
 .navButton div {
   padding: 0;
   background-color: inherit;
@@ -52,8 +54,6 @@
   border: none;
   font-size: 2em;
 }
-
-
 
 .navMenu {
   list-style: none;
@@ -63,6 +63,7 @@
   width: 100%;
   background-color: #111;
   z-index: 200;
+  box-shadow: 0 4px 20px -8px #111;
 }
 
 .navMenu li a {
@@ -73,8 +74,8 @@
   font-weight: 600;
   width: 100%;
   margin: 3px 0;
-  padding: 15px 0;
-  font-size: 1em;
+  padding: 20px 0;
+  font-size: .8em;
   text-transform: uppercase;
 }
 
