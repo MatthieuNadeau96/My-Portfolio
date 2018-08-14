@@ -195,6 +195,11 @@
   transition: 250ms;
 }
 
+.card-btns a {
+  color: #eff7f1;
+  text-decoration: none;
+}
+
 .card-btns button:hover {
   opacity: .8;
 }
