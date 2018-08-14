@@ -30,7 +30,7 @@
 
 .landing-text {
   color: #444444;
-  margin: 46vh auto;
+  margin: 40vh auto;
 }
 
 .about-container {
@@ -65,7 +65,6 @@
 
 .navButton div {
   padding: 0;
-  background-color: #444444;
   cursor: pointer;
   border: none;
   font-size: 2em;
@@ -77,7 +76,7 @@
   padding: 0;
   position: fixed;
   width: 100%;
-  background-color: #111;
+  background-color: #c5e0cc;
   z-index: 200;
   box-shadow: 0 4px 20px -8px #111;
 }
@@ -176,7 +175,7 @@
   padding: 10px 15px;
   margin: 0 1%;
   background-color: #444;
-  color: #fff;
+  color: #eff7f1;
   border-radius: 3px;
   box-shadow: 0px 8px 20px -9px #444;
   transition: 250ms;
@@ -237,7 +236,7 @@
 .contact-underline {
   width: 50%;
   margin: auto;
-  border-top: 2px solid black;
+  border-top: 2px solid #444;
 }
 
 .signature {
