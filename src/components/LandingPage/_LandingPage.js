@@ -11,6 +11,8 @@ class LandingPage extends Component {
     navBarOpen: false
   }
 
+  // TODO: thinking about dumping the navmenu idea and just adding up and down arrows to navigate.
+
   navToggle = () => {
     this.setState((prevState) => {
       return {navBarOpen: !prevState.navBarOpen}

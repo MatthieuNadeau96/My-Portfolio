@@ -84,7 +84,7 @@
 .navMenu li a {
   text-decoration: none;
   display: block;
-  background-color: #D2E9D8;
+  background-color: #eff7f1;
   color: #444444;
   font-weight: 600;
   width: 100%;
@@ -108,6 +108,20 @@
 
 /* PROJECT SECTION */
 
+
+.project-title {
+  color: #444;
+  font-size: 2.5em;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.project-underline {
+  width: 10%;
+  margin: 10px auto;
+  border-top: 2px solid #555;
+  margin-bottom: 50px;
+}
 
 .project-section {
   padding: 30px 0;
@@ -202,7 +216,7 @@
 
 
 .contact-section {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   background-color: #D2E9D8;
   text-align: center;
   width: 100%;
@@ -235,17 +249,22 @@
   font-size: 2em;
   text-decoration: none;
   color: #444;
+  transition: 250ms;
+}
+
+.social-links ul a:hover {
+  opacity: .8;
 }
 
 .contact-underline {
-  width: 50%;
+  width: 10%;
   margin: auto;
-  border-top: 2px solid #444;
+  border-top: 2px solid #555;
 }
 
 .signature {
   font-size: .8em;
-  margin: 0;
+  margin: 10px 0 5pz 0;
   padding: 15px 0;
   font-weight: 100;
 }

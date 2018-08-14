@@ -7,6 +7,8 @@ class ProjectPage extends Component {
   render() {
     return (
       <div className="project-section">
+        <div className="project-title">Projects</div>
+        <div className="project-underline"/>
         <ProjectCard
           cardTitle="Calculator"
           cardInfo="A calculator application. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac pulvinar justo. Aliquam semper neque vitae tortor mollis, quis pharetra lacus porta. Maecenas sed nisl."
