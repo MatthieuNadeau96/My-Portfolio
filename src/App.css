@@ -191,6 +191,10 @@
     margin: 10px;
   }
 
+  .project-card {
+    width: 85%;
+  }
+
 }
 
 
