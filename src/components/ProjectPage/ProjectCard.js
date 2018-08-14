@@ -13,8 +13,14 @@ class ProjectCard extends Component {
           </ul>
         </div>
         <div className="card-btns">
-          <button className="btn-live">Live Demo</button>
-          <button className="btn-github">Github</button>
+          <button className="btn-live">
+            Live Demo
+            <i style={{ paddingLeft: '5px' }}class="fas fa-external-link-alt"></i>
+          </button>
+          <button className="btn-github">
+            <i style={{ paddingRight: '5px' }}class="fab fa-github"></i>
+             View Source
+           </button>
         </div>
 
       </div>

@@ -107,6 +107,7 @@
   padding: 10px;
   width: 50%;
   height: 180%;
+  box-shadow: 0px 8px 20px -9px #444;
 }
 
 .card-title {
@@ -145,17 +146,34 @@
 }
 
 .card-btns {
-  padding: 20px 0 0 0;
+  padding: 20px 0 10px 0;
   align-items: center;
 }
 
 .card-btns button {
+  cursor: pointer;
   border: none;
   font-size: .7em;
   text-transform: uppercase;
-  padding: 2% 4%;
+  padding: 10px 15px;
   margin: 0 1%;
-  background-color: lightgrey;
+  background-color: #00846e;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 0px 8px 20px -9px #444;
+  transition: 250ms;
+}
+
+.card-btns button:hover {
+  opacity: .8;
+}
+
+@media (max-width: 630px ) {
+
+  .card-btns button {
+    margin: 10px;
+  }
+
 }
 
 
