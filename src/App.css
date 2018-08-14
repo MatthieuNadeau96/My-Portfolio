@@ -7,11 +7,12 @@
   left: 0;
   margin: 0;
   padding: 0;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .home-section {
   text-align: center;
-  background: skyblue;
+  background: #D2E9D8;
   height: 100vh;
   width: 100%;
   top: 0;
@@ -19,11 +20,25 @@
 }
 
 .landing-title {
-  margin: 46vh auto;
   top: 0;
   left: 0;
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: 8px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.landing-text {
+  color: #444444;
+  margin: 46vh auto;
+}
+
+.about-container {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1em;
 }
 
 /* RESPONSIVE NAV */
@@ -43,13 +58,14 @@
   display: block;
   z-index: 300;
   position: fixed;
+  color: #444444;
 }
 
 /* TODO: Fix the height when the mobile screen is tilted */
 
 .navButton div {
   padding: 0;
-  background-color: inherit;
+  background-color: #444444;
   cursor: pointer;
   border: none;
   font-size: 2em;
@@ -69,8 +85,8 @@
 .navMenu li a {
   text-decoration: none;
   display: block;
-  background-color: #333;
-  color: #eee;
+  background-color: #D2E9D8;
+  color: #444444;
   font-weight: 600;
   width: 100%;
   margin: 3px 0;
@@ -90,19 +106,20 @@
 }
 
 
+
 /* PROJECT SECTION */
 
 
 .project-section {
   padding: 30px 0;
-  background: lightgrey;
+  background: #D2E9D8;
   text-align: center;
   width: 100%;
   height: 100%;
 }
 
 .project-card {
-  background: white;
+  background: #eff7f1;
   margin: 10px auto;
   padding: 10px;
   width: 50%;
@@ -117,8 +134,9 @@
 }
 
 .card-info {
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 10px;
+  width: 70%;
 }
 
 .card-tool-container {
@@ -157,8 +175,8 @@
   text-transform: uppercase;
   padding: 10px 15px;
   margin: 0 1%;
-  background-color: #00846e;
-  color: white;
+  background-color: #444;
+  color: #fff;
   border-radius: 3px;
   box-shadow: 0px 8px 20px -9px #444;
   transition: 250ms;
@@ -177,26 +195,15 @@
 }
 
 
-/* ABOUT SECTION */
-
-
-.about-section {
-  background-color: white;
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-}
-
-
-
 /* CONTACT SECTION */
 
 
 .contact-section {
-  padding: 10px 0;
-  background: #ddd;
+  padding: 50px 0;
+  background-color: #D2E9D8;
   text-align: center;
   width: 100%;
+  color: #111;
 }
 
 .social-links ul {
@@ -224,7 +231,7 @@
 .social-links ul li a {
   font-size: 2em;
   text-decoration: none;
-  color: black;
+  color: #444;
 }
 
 .contact-underline {
@@ -237,9 +244,10 @@
   font-size: .8em;
   margin: 0;
   padding: 15px 0;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 .fa-copyright {
   font-size: .8em;
+  font-weight: 100;
 }
