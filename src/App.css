@@ -80,8 +80,6 @@
   color: #444444;
 }
 
-/* TODO: Fix the height when the mobile screen is tilted */
-
 .navButton div {
   padding: 0;
   cursor: pointer;
@@ -130,7 +128,7 @@
 
 .project-title {
   color: #444;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 0;
   font-weight: bold;
 }
@@ -156,7 +154,7 @@
   margin: 60px auto;
   width: 50%;
   height: 70%;
-  box-shadow: 0px 22px 19px -12px rgba(68, 68, 68, 0.16);
+  box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.16);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -210,11 +208,11 @@
   text-transform: uppercase;
   padding: 10px 15px;
   margin: 0 1%;
-  background-color: #444;
+  transition: 300ms;
+  background: linear-gradient( 180deg, #555 10%, #444);
   color: #eff7f1;
-  border-radius: 3px;
-  box-shadow: 0px 12px 19px -6px rgba(68, 68, 68, 0.5);
-  transition: 250ms;
+  border-radius: 5px;
+  box-shadow: 0px 14px 19px rgba(0, 0, 0, 0.09);
 }
 
 .card-btns a {
@@ -223,7 +221,8 @@
 }
 
 .card-btns button:hover {
-  opacity: .8;
+  opacity: .95;
+  background: linear-gradient( 180deg, #666 10%, #444);
 }
 
 @media (max-width: 630px ) {
@@ -244,15 +243,14 @@
 
 .contact-section {
   padding: 25px 0 0 0;
-  background-color: inherit;
+  background: linear-gradient(30deg, #Deefe2 10%, #D2E9D8);
   text-align: center;
   width: 100%;
-  color: #111;
 }
 
 .contact-title {
   color: #444;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 0;
   padding: 20px 0;
   font-weight: bold;

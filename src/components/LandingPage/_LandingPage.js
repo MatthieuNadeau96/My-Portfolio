@@ -39,7 +39,7 @@ class LandingPage extends Component {
         {backdrop}
         <div className="landing-text">
           <p className="about-me">Hello! My name is <span className="landing-title">Matthieu Nadeau</span>.
-          <br/>I am a self-taught developer from a small town in Massachussetts. I love creating beautiful and efficiently simple things.</p>
+          <br/>I am a self-taught developer from a small town in Massachusetts. I love creating beautiful and efficiently simple things.</p>
         </div>
       </div>
     );
