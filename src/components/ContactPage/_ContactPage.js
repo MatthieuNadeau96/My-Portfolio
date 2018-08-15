@@ -8,7 +8,10 @@ class ContactPage extends Component {
   render() {
     return (
       <div className="contact-section">
+        <div className="contact-title">Contact Me</div>
+        <div className="contact-underline"/>
         <SocialLinks/>
+        <div className="contact-underline"/>
         <Signature/>
       </div>
     );

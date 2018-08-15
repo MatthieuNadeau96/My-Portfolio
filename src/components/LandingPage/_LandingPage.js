@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import NavMenu from './Navigation/NavMenu';
 import NavButton from './Navigation/NavButton';
 import Backdrop from './Navigation/Backdrop';
-import AboutMe from './AboutMe';
 
 class LandingPage extends Component {
 
@@ -39,8 +38,8 @@ class LandingPage extends Component {
         {navMenu}
         {backdrop}
         <div className="landing-text">
-          <p className="landing-title">Matthieu Nadeau</p>
-          <AboutMe/>
+          <p className="about-me">Hello! My name is <span className="landing-title">Matthieu Nadeau</span>.
+          <br/>I am a self-taught developer from a small town in Massachussetts. I love creating beautiful and efficiently simple things.</p>
         </div>
       </div>
     );
