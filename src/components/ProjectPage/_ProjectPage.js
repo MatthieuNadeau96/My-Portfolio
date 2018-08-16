@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 
 import ProjectCard from './ProjectCard';
 
+import CalculatorPic from '../../img/Calculator.png';
+import DictionaryPic from '../../img/Dictionary.png';
+import MathQuizPic from '../../img/MathQuiz.png';
+import MovieSearchPic from '../../img/MovieSearch.png';
+import TodoListPic from '../../img/TodoList.png';
+
 class ProjectPage extends Component {
 
   render() {
@@ -11,6 +17,7 @@ class ProjectPage extends Component {
         <div className="project-underline"/>
         <ProjectCard
           cardTitle="Calculator"
+          imageSrc={CalculatorPic}
           cardInfo="A calculator application. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac pulvinar justo. Aliquam semper neque vitae tortor mollis, quis pharetra lacus porta. Maecenas sed nisl."
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/My-Calculator/"}
@@ -18,6 +25,7 @@ class ProjectPage extends Component {
         />
         <ProjectCard
           cardTitle="Math Quiz App"
+          imageSrc={MathQuizPic}
           cardInfo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac pulvinar justo. Aliquam semper neque vitae tortor mollis, quis pharetra lacus porta. Maecenas sed nisl.. Using openweathermap api, the user can see the weather for whatever area they choose."
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Math-Quiz-App/"}
@@ -25,6 +33,7 @@ class ProjectPage extends Component {
           />
         <ProjectCard
           cardTitle="Dictionary App"
+          imageSrc={DictionaryPic}
           cardInfo="User can search for words using an api. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac pulvinar justo. Aliquam semper neque vitae tortor mollis, quis pharetra lacus porta. Maecenas sed nisl."
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Dictionary-App/"}
@@ -32,6 +41,7 @@ class ProjectPage extends Component {
           />
         <ProjectCard
           cardTitle="Movie Search"
+          imageSrc={MovieSearchPic}
           cardInfo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac pulvinar justo. Aliquam semper neque vitae tortor mollis, quis pharetra lacus porta. Maecenas sed nisl."
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Movie-Search-App/"}
@@ -39,6 +49,7 @@ class ProjectPage extends Component {
         />
         <ProjectCard
           cardTitle="Todo-List"
+          imageSrc={TodoListPic}
           cardInfo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac pulvinar justo. Aliquam semper neque vitae tortor mollis, quis pharetra lacus porta. Maecenas sed nisl.. Using openweathermap api, the user can see the weather for whatever area they choose."
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Todo-List/"}

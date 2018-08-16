@@ -6,6 +6,9 @@ class ProjectCard extends Component {
     return (
       <div className="project-card">
         <p className="card-title">{this.props.cardTitle}</p>
+        <div className="card-img-back">
+          <img src={this.props.imageSrc} alt=""/>
+        </div>
         <p className="card-info">{this.props.cardInfo}</p>
         <div className="card-tool-container">
           <ul className="card-tools">
@@ -16,12 +19,12 @@ class ProjectCard extends Component {
           <a href={this.props.liveLink} target="_blank">
             <button className="btn-live">
               Live Demo
-              <i style={{ paddingLeft: '5px' }}class="fas fa-external-link-alt"></i>
+              <i style={{ paddingLeft: '5px' }} className="fas fa-external-link-alt"></i>
             </button>
           </a>
           <a href={this.props.ghLink} target="_blank">
             <button className="btn-github">
-              <i style={{ paddingRight: '5px' }}class="fab fa-github"></i>
+              <i style={{ paddingRight: '5px' }} className="fab fa-github"></i>
                View Source
             </button>
           </a>

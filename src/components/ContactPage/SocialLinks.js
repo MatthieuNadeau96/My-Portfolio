@@ -4,16 +4,16 @@ const SocialLinks = props => (
   <div className="social-links">
     <ul>
       <li><a href='/'>
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
       </a></li>
       <li><a href='/'>
-        <i class="fab fa-instagram"></i>
+        <i className="fab fa-instagram"></i>
       </a></li>
       <li><a href='/'>
-        <i class="fab fa-codepen"></i>
+        <i className="fab fa-codepen"></i>
       </a></li>
       <li><a href='/'>
-        <i class="fab fa-medium"></i>
+        <i className="fab fa-medium"></i>
       </a></li>
     </ul>
   </div>

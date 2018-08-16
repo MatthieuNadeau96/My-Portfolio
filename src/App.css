@@ -160,6 +160,20 @@
   justify-content: space-between;
 }
 
+.card-img-back {
+  width: 50%;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(227, 234, 231, .5);
+  box-shadow: -18px 22px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.project-card img {
+  margin: 0 auto;
+  height: 300px;
+  width: 392px;
+}
+
 .card-title {
   font-size: 2em;
   margin: 0;
@@ -212,7 +226,7 @@
   background: linear-gradient( 180deg, #555 10%, #444);
   color: #eff7f1;
   border-radius: 5px;
-  box-shadow: 0px 14px 19px rgba(0, 0, 0, 0.09);
+  box-shadow: -18px 22px 30px 0px rgba(0, 0, 0, 0.09);
 }
 
 .card-btns a {
