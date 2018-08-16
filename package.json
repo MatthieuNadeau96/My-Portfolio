@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "http://matthieunadeau96.github.io/My-Portfolio/",
+  "homepage": "https://matthieunadeau96.github.io/My-Portfolio/",
   "private": true,
   "dependencies": {
     "npm": "^6.3.0",
