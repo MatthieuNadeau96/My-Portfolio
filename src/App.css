@@ -149,6 +149,7 @@
 }
 
 .project-card {
+  color: #444;
   border-radius: 8px;
   background: linear-gradient(180deg, #eff7f1 50%, #e3eae7);
   margin: 60px auto;
@@ -162,7 +163,7 @@
 
 .card-img-back {
   width: 50%;
-  margin: 40px auto;
+  margin: 10px auto 30px auto;
   padding: 30px;
   background: rgba(227, 234, 231, .5);
   box-shadow: -8px 12px 30px 0px rgba(0, 0, 0, 0.05);
@@ -175,9 +176,10 @@
 }
 
 .card-title {
-  font-size: 2em;
-  margin: 0;
-  padding: 20px 10px;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  margin: 5px 0 0 0;
+  padding: 30px 10px;
 }
 
 .card-info {
