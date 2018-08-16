@@ -36,7 +36,7 @@
 .landing-title {
   top: 0;
   left: 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 0;
   font-weight: bold;
 }
@@ -154,7 +154,7 @@
   margin: 60px auto;
   width: 50%;
   height: 70%;
-  box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.16);
+  box-shadow: -8px 12px 30px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -165,13 +165,13 @@
   margin: 40px auto;
   padding: 30px;
   background: rgba(227, 234, 231, .5);
-  box-shadow: -18px 22px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: -8px 12px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .project-card img {
   margin: 0 auto;
-  height: 300px;
-  width: 392px;
+  height: 100%;
+  width: 100%;
 }
 
 .card-title {
@@ -226,7 +226,7 @@
   background: linear-gradient( 180deg, #555 10%, #444);
   color: #eff7f1;
   border-radius: 5px;
-  box-shadow: -18px 22px 30px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: -8px 6px 15px 0px rgba(0, 0, 0, 0.09);
 }
 
 .card-btns a {
