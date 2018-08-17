@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 class LandingPage extends Component {
 
   goDown = () => {
-    // window.scrollTo(0, 940);
     window.scroll({ top: 940, left: 0, behavior: 'smooth'});
   }
 
