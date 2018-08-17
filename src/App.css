@@ -41,6 +41,12 @@
   font-weight: bold;
 }
 
+.down-arrow {
+  color: #444;
+  font-size: 2em;
+  cursor: pointer;
+}
+
 @media (max-width: 845px) {
   .about-me {
     padding-bottom: 50px;
@@ -50,9 +56,6 @@
 @media (max-height: 800px) {
   .landing-text {
     margin: 20vh auto;
-  }
-
-  .about-me {
   }
 
   .home-section {
