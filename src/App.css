@@ -8,11 +8,16 @@
   margin: 0;
   padding: 0;
   font-family: 'Libre Franklin', sans-serif;
+  background: #8EB6F2;
+  background: -webkit-linear-gradient(0deg, #bfd8ff, #d4e2f7);
+  background: linear-gradient(0deg, #bfd8ff, #d4e2f7);
+
+
+
 }
 
 .home-section {
   text-align: center;
-  background: inherit;
   height: 100vh;
   width: 100%;
   top: 0;
@@ -22,7 +27,7 @@
 
 
 .landing-text {
-  color: #444444;
+  color: #27282B;
   margin: 40vh auto;
 }
 
@@ -42,7 +47,7 @@
 }
 
 .down-arrow {
-  color: #444;
+  color: #27282B;
   font-size: 2em;
   cursor: pointer;
   margin-top: 15%;
@@ -81,7 +86,7 @@
 
 
 .project-title {
-  color: #444;
+  color: #27282B;
   font-size: 2em;
   margin-top: 0;
   font-weight: bold;
@@ -96,16 +101,15 @@
 
 .project-section {
   padding: 30px 0;
-  background: inherit;
   text-align: center;
   width: 100%;
   height: 100%;
 }
 
 .project-card {
-  color: #444;
+  color: #27282B;
   border-radius: 3px;
-  background: #fff;
+  background: #F7F8FC;
   margin: 60px auto;
   width: 50%;
   height: 70%;
@@ -119,7 +123,7 @@
   width: 50%;
   margin: 10px auto 30px auto;
   padding: 30px;
-  background: rgba(210, 233, 216, .8);
+  background: rgba(191, 216, 255, .8);
   box-shadow: -8px 12px 30px 0px rgba(0, 0, 0, 0.05);
   border-radius: 3px;
 }
@@ -180,20 +184,18 @@
   padding: 10px 15px;
   margin: 0 1%;
   transition: 300ms;
-  background: linear-gradient( 180deg, #555 10%, #444);
-  color: #eff7f1;
+  background: linear-gradient( to bottom, #616264, #27282B);
+  color: #F7F8FC;
   border-radius: 5px;
   box-shadow: -8px 6px 15px 0px rgba(0, 0, 0, 0.09);
 }
 
 .card-btns a {
-  color: #eff7f1;
   text-decoration: none;
 }
 
 .card-btns button:hover {
-  opacity: .95;
-  background: linear-gradient( 180deg, #666 10%, #444);
+  opacity: .9;
 }
 
 @media (max-width: 630px ) {
@@ -214,13 +216,12 @@
 
 .contact-section {
   padding: 25px 0 0 0;
-  background: inherit;
   text-align: center;
   width: 100%;
 }
 
 .contact-title {
-  color: #444;
+  color: #27282B;
   font-size: 2em;
   margin-top: 0;
   padding: 20px 0;
@@ -252,12 +253,12 @@
 .social-links ul li a {
   font-size: 1.7em;
   text-decoration: none;
-  color: #444;
-  transition: 250ms;
+  color: #27282B;
+  transition: 200ms;
 }
 
 .social-links ul a:hover {
-  opacity: .8;
+  opacity: .6;
 }
 
 .contact-underline {
