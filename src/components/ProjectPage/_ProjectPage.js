@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 import ProjectCard from './ProjectCard';
 
 import CalculatorPic from '../../img/Calculator.png';
-import DictionaryPic from '../../img/Dictionary.png';
+import LoveLandingPic from '../../img/LoveLandingPic.png';
 import MathQuizPic from '../../img/MathQuiz.png';
+import DictionaryPic from '../../img/Dictionary.png';
 import MovieSearchPic from '../../img/MovieSearch.png';
 import TodoListPic from '../../img/TodoList.png';
 
@@ -15,6 +16,14 @@ class ProjectPage extends Component {
       <div className="project-section">
         <div className="project-title">Projects</div>
         <div className="project-underline"/>
+        <ProjectCard
+          cardTitle="Love Landing Page"
+          imageSrc={LoveLandingPic}
+          cardInfo="A simple landing page that sells love. I created this to further my skills building responsive single-page applications with React. This is also my first independent project styling with sass."
+          tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Sass", "Node.js"]}
+          liveLink={"https://matthieunadeau96.github.io/Love-Landing-Page/"}
+          ghLink={"https://github.com/MatthieuNadeau96/Love-Landing-Page"}
+          />
         <ProjectCard
           cardTitle="Calculator"
           imageSrc={CalculatorPic}
