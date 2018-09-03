@@ -1,12 +1,13 @@
 {
   "main.css": "static/css/main.ca152783.css",
   "main.css.map": "static/css/main.ca152783.css.map",
-  "main.js": "static/js/main.0f52d430.js",
-  "main.js.map": "static/js/main.0f52d430.js.map",
+  "main.js": "static/js/main.f9fddaa1.js",
+  "main.js.map": "static/js/main.f9fddaa1.js.map",
   "static\\media\\Calculator.png": "static/media/Calculator.e8692bf5.png",
   "static\\media\\Dictionary.png": "static/media/Dictionary.99631e97.png",
   "static\\media\\LoveLandingPic.png": "static/media/LoveLandingPic.15d6961d.png",
   "static\\media\\MathQuiz.png": "static/media/MathQuiz.372cdf8d.png",
   "static\\media\\MovieSearch.png": "static/media/MovieSearch.c22912ad.png",
+  "static\\media\\PomodoroTimer.png": "static/media/PomodoroTimer.c994e768.png",
   "static\\media\\TodoList.png": "static/media/TodoList.be3f04c7.png"
 }
