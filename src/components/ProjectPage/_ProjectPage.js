@@ -8,6 +8,7 @@ import MathQuizPic from '../../img/MathQuiz.png';
 import DictionaryPic from '../../img/Dictionary.png';
 import MovieSearchPic from '../../img/MovieSearch.png';
 import TodoListPic from '../../img/TodoList.png';
+import PomodoroTimerPic from '../../img/PomodoroTimer.png'
 
 class ProjectPage extends Component {
 
@@ -23,6 +24,14 @@ class ProjectPage extends Component {
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Sass", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Love-Landing-Page/"}
           ghLink={"https://github.com/MatthieuNadeau96/Love-Landing-Page"}
+          />
+        <ProjectCard
+          cardTitle="Pomodoro Timer"
+          imageSrc={PomodoroTimerPic}
+          cardInfo="A pomodoro timer made with React.js. The pomodoro technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks."
+          tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
+          liveLink={"https://matthieunadeau96.github.io/Pomodoro-Timer/"}
+          ghLink={"https://github.com/MatthieuNadeau96/Pomodoro-Timer"}
           />
         <ProjectCard
           cardTitle="Calculator"
@@ -41,14 +50,6 @@ class ProjectPage extends Component {
           ghLink={"https://github.com/MatthieuNadeau96/Math-Quiz-App"}
           />
         <ProjectCard
-          cardTitle="Dictionary App"
-          imageSrc={DictionaryPic}
-          cardInfo="User can search for words using an api. This particular api isn't secure so the user would have to allow it in the browser."
-          tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
-          liveLink={"https://matthieunadeau96.github.io/Dictionary-App/"}
-          ghLink={"https://github.com/MatthieuNadeau96/Dictionary-App"}
-          />
-        <ProjectCard
           cardTitle="Movie Search"
           imageSrc={MovieSearchPic}
           cardInfo="This application uses an api to retrieve a list of movies based on the input provided."
@@ -64,6 +65,14 @@ class ProjectPage extends Component {
           liveLink={"https://matthieunadeau96.github.io/Todo-List/"}
           ghLink={"https://github.com/MatthieuNadeau96/Todo-List"}
         />
+        <ProjectCard
+          cardTitle="Dictionary App"
+          imageSrc={DictionaryPic}
+          cardInfo="User can search for words using an api. This particular api isn't secure so the user would have to allow it in the browser."
+          tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
+          liveLink={"https://matthieunadeau96.github.io/Dictionary-App/"}
+          ghLink={"https://github.com/MatthieuNadeau96/Dictionary-App"}
+          />
       </div>
     );
   }
