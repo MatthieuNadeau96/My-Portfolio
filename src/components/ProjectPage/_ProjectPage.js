@@ -69,7 +69,7 @@ class ProjectPage extends Component {
         <ProjectCard
           cardTitle="Basic Signup Form"
           imageSrc={BasicSignupFormPic}
-          cardInfo="A very simple sign up and sign up form made with React.js."
+          cardInfo="A very simple sign up and sign in form made with React.js."
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Basic-Signup-Form/"}
           ghLink={"https://github.com/MatthieuNadeau96/Basic-Signup-Form"}
