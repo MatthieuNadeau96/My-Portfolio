@@ -8,7 +8,8 @@ import MathQuizPic from '../../img/MathQuiz.png';
 import DictionaryPic from '../../img/Dictionary.png';
 import MovieSearchPic from '../../img/MovieSearch.png';
 import TodoListPic from '../../img/TodoList.png';
-import PomodoroTimerPic from '../../img/PomodoroTimer.png'
+import PomodoroTimerPic from '../../img/PomodoroTimer.png';
+import BasicSignupFormPic from '../../img/Basic-Signup-Form.png';
 
 class ProjectPage extends Component {
 
@@ -65,6 +66,14 @@ class ProjectPage extends Component {
           liveLink={"https://matthieunadeau96.github.io/Todo-List/"}
           ghLink={"https://github.com/MatthieuNadeau96/Todo-List"}
         />
+        <ProjectCard
+          cardTitle="Basic Signup Form"
+          imageSrc={BasicSignupFormPic}
+          cardInfo="A very simple sign up and sign up form made with React.js."
+          tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
+          liveLink={"https://matthieunadeau96.github.io/Basic-Signup-Form/"}
+          ghLink={"https://github.com/MatthieuNadeau96/Basic-Signup-Form"}
+          />
         <ProjectCard
           cardTitle="Dictionary App"
           imageSrc={DictionaryPic}
