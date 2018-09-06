@@ -53,6 +53,10 @@
   margin-top: 15%;
 }
 
+.up-arrow {
+  color: #27282B;
+}
+
 @media (max-width: 845px) {
   .about-me {
     padding-bottom: 50px;
