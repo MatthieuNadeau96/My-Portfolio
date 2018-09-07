@@ -53,7 +53,7 @@ class ProjectPage extends Component {
         <ProjectCard
           cardTitle="Movie Search"
           imageSrc={MovieSearchPic}
-          cardInfo="This application uses an api to retrieve a list of movies based on the input provided."
+          cardInfo="This application uses an api from The Movie Database to retrieve a list of movies based on the input provided."
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Movie-Search-App/"}
           ghLink={"https://github.com/MatthieuNadeau96/Movie-Search-App"}
