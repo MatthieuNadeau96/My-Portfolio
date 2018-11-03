@@ -10,6 +10,7 @@ import MovieSearchPic from '../../img/MovieSearch.png';
 import TodoListPic from '../../img/TodoList.png';
 import PomodoroTimerPic from '../../img/PomodoroTimer.png';
 import BasicSignupFormPic from '../../img/Basic-Signup-Form.png';
+import ChatAppPic from '../../img/Chat-App.png';
 
 class ProjectPage extends Component {
 
@@ -25,6 +26,14 @@ class ProjectPage extends Component {
           tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Sass", "Node.js"]}
           liveLink={"https://matthieunadeau96.github.io/Love-Landing-Page/"}
           ghLink={"https://github.com/MatthieuNadeau96/Love-Landing-Page"}
+          />
+        <ProjectCard
+          cardTitle="Chat App"
+          imageSrc={ChatAppPic}
+          cardInfo="A chat application made with React.js. Inspired by Discord and Android Messages."
+          tools={["HTML", "CSS", "Javascript", "ES6", "React.js", "Node.js"]}
+          liveLink={"https://matthieunadeau96.github.io/React-Chat-App/"}
+          ghLink={"https://github.com/MatthieuNadeau96/React-Chat-App"}
           />
         <ProjectCard
           cardTitle="Pomodoro Timer"
